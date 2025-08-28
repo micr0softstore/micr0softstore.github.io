@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galaxy Tab A (2019) - TGK</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Animated gradient */
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    .animated-gradient {
+      background: linear-gradient(-45deg, #7e22ce, #2563eb, #4f46e5, #9333ea);
+      background-size: 400% 400%;
+      animation: gradientShift 12s ease infinite;
+    }
+  </style>
+</head>
+<body class="bg-gray-950 text-gray-100 font-sans">
+
+  <!-- Hero -->
+  <section class="relative min-h-screen flex flex-col justify-center items-center text-center animated-gradient">
+    <div class="absolute inset-0 bg-black/40"></div>
+    <div class="relative z-10">
+      <h1 class="text-5xl font-bold mb-4">touchGrassKernel</h1>
+      <p class="text-xl mb-2">for Samsung Galaxy Tab A (2019)</p>
+      <p class="text-xl mb-8">Supported models: SM-T515, SM-T510</p>
+      <a href="#download" class="px-8 py-4 bg-gray-900 text-gray-100 font-semibold rounded-2xl shadow-lg hover:bg-gray-800 transition">
+        ⬇ Download Now
+      </a>
+      <p class="mt-6">
+      <a href="https://t.me/magendanz" class="text-indigo-400 hover:underline">Join our telegram group</a>
+    </p>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="max-w-5xl mx-auto px-6 py-16 grid md:grid-cols-3 gap-8 text-center">
+    <div class="p-6 bg-gray-900 rounded-2xl shadow-lg hover:shadow-xl transition">
+      <h3 class="text-xl font-semibold mb-2">🔋 Battery Life</h3>
+      <p class="text-gray-400">Removed some additional logging from kernel so it saves resource</p>
+    </div>
+    <div class="p-6 bg-gray-900 rounded-2xl shadow-lg hover:shadow-xl transition">
+      <h3 class="text-xl font-semibold mb-2">⚙ Bpf</h3>
+      <p class="text-gray-400">Added bpf patches from LK 4.9 so we can boot new androids</p>
+    </div>
+    <div class="p-6 bg-gray-900 rounded-2xl shadow-lg hover:shadow-xl transition">
+      <h3 class="text-xl font-semibold mb-2">♟️ KernelSU-Next</h3>
+      <p class="text-gray-400">Implemented latest KernelSU-Next with Manual hooks</p>
+    </div>
+  </section>
+
+  <!-- Changelog -->
+  <section class="max-w-4xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-center mb-8">📜 Changelog</h2>
+    <div class="space-y-4">
+      <div class="p-6 bg-gray-900 rounded-xl shadow-lg">
+        <h3 class="text-lg font-semibold">v1.1 – Aug 27 2025</h3>
+        <ul class="list-disc ml-6 text-gray-400 mt-2">
+          <li>Initial release for SM-T515 model</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download -->
+  <section id="download" class="max-w-3xl mx-auto px-6 py-20 text-center">
+    <h2 class="text-3xl font-bold mb-6">⬇ Latest Release</h2>
+    <div class="p-8 bg-gradient-to-br from-indigo-700 to-purple-700 rounded-2xl shadow-xl">
+      <h3 class="text-xl font-semibold mb-2">Release v1.1</h3>
+      <p class="text-gray-200 mb-6">Released: Aug 27 2025 • Size: 25MB</p>
+      <a href="YOUR-KERNEL-LINK.zip" class="px-6 py-3 bg-gray-900 text-gray-100 font-semibold rounded-xl shadow hover:bg-gray-800 transition">
+        Download ZIP
+      </a>
+    </div>
+    <!-- Older Releases link under the card -->
+    <p class="mt-6">
+      <a href="https://micr0softstore.github.io/tgk/older-releases" class="text-indigo-400 hover:underline">Browse Older Releases →</a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-gray-500 border-t border-gray-800">
+    <p>© 2025 micr0softstore. Built for Galaxy Tab A (2019).</p>
+    <p class="mt-2">
+      <a href="https://github.com/micr0softstore/android_linux_kernel_samsung_SM-T515" target="_blank" class="text-indigo-400 hover:underline">
+        Source Code on GitHub
+      </a>
+    </p>
+  </footer>
+
+</body>
+</html>

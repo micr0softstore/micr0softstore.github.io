@@ -6,46 +6,103 @@
   <title>Galaxy Tab A (2019) - TGK</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    /* Animated gradient */
-    @keyframes gradientShift {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
-    .animated-gradient {
-      background: linear-gradient(-45deg, #7e22ce, #2563eb, #4f46e5, #9333ea);
-      background-size: 400% 400%;
-      animation: gradientShift 12s ease infinite;
+  .animated-bg {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    background: radial-gradient(circle at 30% 30%, #3e8ef7, transparent 50%),
+                radial-gradient(circle at 70% 70%, #6c5ce7, transparent 50%),
+                radial-gradient(circle at 50% 80%, #9333ea, transparent 50%);
+    animation: moveGradient 15s infinite linear;
+    filter: blur(80px);
+    z-index: 0;
+  }
+
+  @keyframes moveGradient {
+    0%   { transform: translate(0, 0) rotate(0deg); }
+    50%  { transform: translate(20%, 20%) rotate(180deg); }
+    100% { transform: translate(0, 0) rotate(360deg); }
+  }
+    body.modal-open {
+      overflow: hidden;
     }
   </style>
 </head>
 <body class="bg-gray-950 text-gray-100 font-sans">
 
   <!-- Hero -->
-  <section class="relative min-h-screen flex flex-col justify-center items-center text-center animated-gradient">
-    <div class="absolute inset-0 bg-black/40"></div>
+<section class="relative min-h-screen flex flex-col justify-center items-center text-center overflow-hidden">
+  <!-- Animated blobs background -->
+  <div class="animated-bg"></div>
+  <!-- Dark overlay -->
+  <div class="absolute inset-0 bg-black/40 z-0"></div>
+  <div class="absolute inset-0 bg-black/40 z-0"></div>
     <div class="relative z-10">
       <h1 class="text-5xl font-bold mb-4">touchGrassKernel</h1>
-      <p class="text-xl mb-2">for Samsung Galaxy Tab A (2019)</p>
-      <p class="text-xl mb-8">Supported models: SM-T515, SM-T510</p>
-      <a href="#download" class="px-8 py-4 bg-gray-900 text-gray-100 font-semibold rounded-2xl shadow-lg hover:bg-gray-800 transition">
+      <p class="text-xl mb-8">For a lot of devices</p>
+      <button onclick="openModal()" class="px-8 py-4 bg-gray-900 text-gray-100 font-semibold rounded-2xl shadow-lg hover:bg-gray-800 transition">
         ⬇ Download Now
-      </a>
+      </button>
       <p class="mt-6">
-      <a href="https://t.me/magendanz" class="text-indigo-400 hover:underline">Join our telegram group</a>
+        <a href="https://t.me/touchgrasskernel" class="text-indigo-400 hover:underline">Join our telegram group</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Supported Devices -->
+  <section class="max-w-5xl mx-auto px-6 py-16 text-center">
+    <h2 class="text-3xl font-bold mb-8">📱 Supported Devices</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="p-6 bg-gray-900 rounded-2xl shadow-lg flex items-center space-x-4">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-a-101-2019.jpg" alt="Galaxy Tab A SM-T515" class="w-20 h-24 object-cover rounded-lg">
+        <h3 class="text-lg font-semibold">Galaxy Tab A (2019) LTE – SM-T515</h3>
+         <p class="mt-2">
+      <a href="https://github.com/micr0softstore/android_linux_kernel_samsung_SM-T515" target="_blank" class="text-indigo-400 hover:underline">
+        Source Code on GitHub
+      </a>
     </p>
+      </div>
+      <div class="p-6 bg-gray-900 rounded-2xl shadow-lg flex items-center space-x-4">
+        <img src="https://xdaforums.com/data/xda/device/icon/13/1369.jpg?1615989979" alt="Galaxy A52 5G" class="w-20 h-24 object-cover rounded-lg">
+        <h3 class="text-lg font-semibold">Galaxy Tab A52 5G - SM-A526B</h3>
+         <p class="mt-2">
+      <a href="https://github.com/micr0softstore/samsung_andrid_kernel_a52xq" target="_blank" class="text-indigo-400 hover:underline">
+        Source Code on GitHub
+      </a>
+    </p>
+      </div>
+      <div class="p-6 bg-gray-900 rounded-2xl shadow-lg flex items-center space-x-4">
+        <img src="https://cdn.kalvo.com/uploads/img/gallery/samsung-galaxy-a13-9.jpg" alt="Galaxy A13 Mtk" class="w-20 h-24 object-cover rounded-lg">
+        <h3 class="text-lg font-semibold">Galaxy A13 - SM-A137F</h3>
+         <p class="mt-2">
+      <a href="https://github.com/micr0softstore/samsung_kernel_a13ve" target="_blank" class="text-indigo-400 hover:underline">
+        Source Code on GitHub
+      </a>
+    </p>
+      </div>
+      <div class="p-6 bg-gray-900 rounded-2xl shadow-lg flex items-center space-x-4">
+        <img src="https://product.hstatic.net/200000823693/product/galaxya13_2b615446e46c42c99fbc9d6436ea7353.jpg" alt="Galaxy A13 Exynos" class="w-20 h-24 object-cover rounded-lg">
+        <h3 class="text-lg font-semibold">Galaxy A13 - SM-A135F</h3>
+         <p class="mt-2">
+      <a href="https://github.com/micr0softstore/A135f-U-u5-SA" target="_blank" class="text-indigo-400 hover:underline">
+        Source Code on GitHub
+      </a>
+    </p>
+      </div>
     </div>
   </section>
 
   <!-- Features -->
   <section class="max-w-5xl mx-auto px-6 py-16 grid md:grid-cols-3 gap-8 text-center">
     <div class="p-6 bg-gray-900 rounded-2xl shadow-lg hover:shadow-xl transition">
-      <h3 class="text-xl font-semibold mb-2">🔀 Switchabl Enforcment</h3>
-      <p class="text-gray-400">Switch between Permissive and enforcing SELinux</p>
+      <h3 class="text-xl font-semibold mb-2">🔀 Switchable Enforcement</h3>
+      <p class="text-gray-400">Switch between Permissive and Enforcing SELinux</p>
     </div>
     <div class="p-6 bg-gray-900 rounded-2xl shadow-lg hover:shadow-xl transition">
       <h3 class="text-xl font-semibold mb-2">⚙ Bpf</h3>
-      <p class="text-gray-400">Added bpf patches from LK 4.9 so we can boot new androids</p>
+      <p class="text-gray-400">Added bpf commits so can boot new versions of android</p>
     </div>
     <div class="p-6 bg-gray-900 rounded-2xl shadow-lg hover:shadow-xl transition">
       <h3 class="text-xl font-semibold mb-2">♟️ KernelSU-Next</h3>
@@ -66,32 +123,127 @@
     </div>
   </section>
 
-  <!-- Download -->
-  <section id="download" class="max-w-3xl mx-auto px-6 py-20 text-center">
-    <h2 class="text-3xl font-bold mb-6">⬇ Latest Release</h2>
-    <div class="p-8 bg-gradient-to-br from-indigo-700 to-purple-700 rounded-2xl shadow-xl">
-      <h3 class="text-xl font-semibold mb-2">Release v1.1</h3>
-      <p class="text-gray-200 mb-6">Released: Aug 27 2025 • Size: 25MB</p>
-      <p class="text-gray-200 mb-6">SELinux: Permissive</p>
-      <a href="https://github.com/micr0softstore/android_linux_kernel_samsung_SM-T515/releases/download/Stable/touchGrassKernel_v1.1-gta3xlinu-permissive.zip" class="px-6 py-3 bg-gray-900 text-gray-100 font-semibold rounded-xl shadow hover:bg-gray-800 transition">
-        Download ZIP
-      </a>
-    </div>
-    <!-- Older Releases link under the card -->
-    <p class="mt-6">
-      <a href="https://micr0softstore.github.io/tgk/older-releases" class="text-indigo-400 hover:underline">Browse Older Releases →</a>
-    </p>
-  </section>
-
   <!-- Footer -->
   <footer class="py-6 text-center text-gray-500 border-t border-gray-800">
     <p>© 2025 micr0softstore. Built for Galaxy Tab A (2019).</p>
-    <p class="mt-2">
-      <a href="https://github.com/micr0softstore/android_linux_kernel_samsung_SM-T515" target="_blank" class="text-indigo-400 hover:underline">
-        Source Code on GitHub
-      </a>
-    </p>
+
   </footer>
+
+<!-- Download Modal -->
+<div id="downloadModal" class="fixed inset-0 hidden bg-black/70 backdrop-blur-sm flex items-center justify-center z-50">
+  <div class="bg-gray-900 p-8 rounded-2xl shadow-xl w-full max-w-lg relative">
+    <button onclick="closeModal()" class="absolute top-3 right-3 text-gray-400 hover:text-white">✖</button>
+    <h2 class="text-2xl font-bold mb-6">Download touchGrassKernel</h2>
+
+    <!-- Dropdowns -->
+    <label class="block text-left mb-2 font-medium">Select Device:</label>
+    <select id="deviceSelect" class="w-full p-3 rounded-lg bg-gray-800 text-gray-100 mb-4">
+      <option value="">Choose Device</option>
+      <option value="SM-T515">Galaxy Tab A (2019) LTE – SM-T515</option>
+      <option value="SM-A526B">Galaxy A52 5G - SM-A526B</option>
+      <option value="SM-A137F">Galaxy A13 - SM-A137F</option>
+      <option value="SM-A135F">Galaxy A13 - SM-A135F</option>
+    </select>
+
+    <label class="block text-left mb-2 font-medium">Select Version:</label>
+    <select id="versionSelect" class="w-full p-3 rounded-lg bg-gray-800 text-gray-100 mb-6" disabled>
+      <option value="">Choose Version</option>
+    </select>
+
+    <!-- Release Card -->
+    <div id="releaseCard" class="hidden p-6 bg-gray-800 rounded-xl shadow-lg mt-4">
+      <h3 id="releaseTitle" class="text-xl font-semibold mb-2">Release</h3>
+      <p id="releaseDetails" class="text-gray-400 text-sm mb-4">Details about release…</p>
+      <a id="releaseLink" href="#" class="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow hover:bg-indigo-500 transition">
+        Download
+      </a>
+    </div>
+  </div>
+<script>
+  const deviceSelect = document.getElementById('deviceSelect');
+  const versionSelect = document.getElementById('versionSelect');
+  const releaseCard = document.getElementById('releaseCard');
+  const releaseTitle = document.getElementById('releaseTitle');
+  const releaseDetails = document.getElementById('releaseDetails');
+  const releaseLink = document.getElementById('releaseLink');
+
+  const releases = {
+    "SM-T515": {
+      "v1.1": {
+        title: "Inital release for SM-T515",
+        details: "Released: Aug 27 2025 • SELinux: Permissive • Size: 12.4MB",
+        link: "https://github.com/micr0softstore/android_linux_kernel_samsung_SM-T515/releases/download/Stable/touchGrassKernel_v1.1-gta3xlinu-permissive.zip"
+      }
+    },
+
+    "SM-A526B": {
+      "v1.0": {
+        title: "SM-A526B inital release",
+        details: "Released: Sep 13 2025 • SELinux: Permissive • Size: 21MB",
+        link: "https://example.com/tgk-v1.0-t510.zip"
+      }
+    },
+    "SM-A137F": {
+      "v1.0": {
+        title: "SM-A137F use manual hooks instead of kprobes",
+        details: "Released: July 16 2025 • SELinux: Permissive • Size: 15.4MB",
+        link: "https://drive.google.com/file/d/103S-ehSFzkIRi6Y65SPtOqz14NhJLNpL/view"
+      }
+    },
+    "SM-A135F": {
+      "v1.0": {
+        title: "SM-A135F inital release",
+        details: "Released: Aug 9 2025 • SELinux: Permissive • Size: 18MB",
+        link: "https://drive.google.com/file/d/17iQH9b7rBQ4Z4Zr1wkV-v8Iu_EvI7cmD/view?usp=sharing"
+      }
+    }
+  };
+
+  function openModal() {
+    document.getElementById('downloadModal').classList.remove('hidden');
+    document.body.classList.add('modal-open');
+  }
+  function closeModal() {
+    document.getElementById('downloadModal').classList.add('hidden');
+    document.body.classList.remove('modal-open');
+  }
+
+  function updateVersions() {
+    const device = deviceSelect.value;
+    versionSelect.innerHTML = '<option value="">Choose Version</option>';
+    releaseCard.classList.add('hidden');
+
+    if (device && releases[device]) {
+      versionSelect.disabled = false;
+      Object.keys(releases[device]).forEach(ver => {
+        const opt = document.createElement('option');
+        opt.value = ver;
+        opt.textContent = ver;
+        versionSelect.appendChild(opt);
+      });
+    } else {
+      versionSelect.disabled = true;
+    }
+  }
+
+  function updateReleaseCard() {
+    const device = deviceSelect.value;
+    const version = versionSelect.value;
+
+    if (device && version && releases[device] && releases[device][version]) {
+      const release = releases[device][version];
+      releaseTitle.textContent = release.title;
+      releaseDetails.textContent = release.details;
+      releaseLink.href = release.link;
+      releaseCard.classList.remove('hidden');
+    } else {
+      releaseCard.classList.add('hidden');
+    }
+  }
+
+  deviceSelect.addEventListener('change', updateVersions);
+  versionSelect.addEventListener('change', updateReleaseCard);
+</script>
 
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>touchGrassKernel Web</title>
+  <title>TGK Main</title>
   <meta content="TouchGrass Custom Kernel" property="og:title" />
   <meta content="Unleash the abilitys of your phone." property="og:description" />
   <meta content="https://micr0softstore.github.io/tgk" property="og:url" />
@@ -71,6 +71,15 @@
     </p>
       </div>
       <div class="p-6 bg-gray-900 rounded-2xl shadow-lg flex items-center space-x-4">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-a-101-2019.jpg" alt="Galaxy Tab A SM-T510" class="w-20 h-24 object-cover rounded-lg">
+        <h3 class="text-lg font-semibold">Galaxy Tab A (2019) WIFI – SM-T510</h3>
+         <p class="mt-2">
+      <a href="https://github.com/micr0softstore/samsung_android_kernel_T510" target="_blank" class="text-indigo-400 hover:underline">
+        Source Code on GitHub
+      </a>
+    </p>
+      </div>
+      <div class="p-6 bg-gray-900 rounded-2xl shadow-lg flex items-center space-x-4">
         <img src="https://xdaforums.com/data/xda/device/icon/13/1369.jpg?1615989979" alt="Galaxy A52 5G" class="w-20 h-24 object-cover rounded-lg">
         <h3 class="text-lg font-semibold">Galaxy Tab A52 5G - SM-A526B</h3>
          <p class="mt-2">
@@ -118,13 +127,24 @@
 
   <!-- Changelog -->
   <section class="max-w-4xl mx-auto px-6 py-16">
-    <h2 class="text-3xl font-bold text-center mb-8">📜 Changelog</h2>
+    <h2 class="text-3xl font-bold text-center mb-8">📜 Contributors</h2>
     <div class="space-y-4">
-      <div class="p-6 bg-gray-900 rounded-xl shadow-lg">
-        <h3 class="text-lg font-semibold">v1.1 – Aug 27 2025</h3>
-        <ul class="list-disc ml-6 text-gray-400 mt-2">
-          <li>Initial release for SM-T515 model</li>
-        </ul>
+      <div class="p-6 bg-gray-900 rounded-xl shadow-lg items-center flex">
+        <img src="https://avatars.githubusercontent.com/u/196047120?v=4" alt="Galaxy Tab A SM-T515" class="w-24 h-24 object-cover rounded-lg">
+        <h3 class="text-lg font-semibold">&nbsp Microsoft Store &nbsp</h3>
+      <a href="https://github.com/micr0softstore/" target="_blank" class="text-indigo-400 hover:underline">
+        View GitHub profile
+      </a>
+      </div>
+    </br>
+    </div>
+    <div class="space-y-4">
+      <div class="p-6 bg-gray-900 rounded-xl shadow-lg items-center flex">
+        <img src="https://avatars.githubusercontent.com/u/183935403?v=4" alt="Galaxy Tab A SM-T515" class="w-24 h-24 object-cover rounded-lg">
+        <h3 class="text-lg font-semibold">&nbsp Pritam &nbsp</h3>
+      <a href="https://github.com/nostalgiceagle" target="_blank" class="text-indigo-400 hover:underline">
+        View GitHub profile
+      </a>
       </div>
     </div>
   </section>
@@ -146,6 +166,7 @@
     <select id="deviceSelect" class="w-full p-3 rounded-lg bg-gray-800 text-gray-100 mb-4">
       <option value="">Choose Device</option>
       <option value="SM-T515">Galaxy Tab A (2019) LTE – SM-T515</option>
+      <option value="SM-T510">Galaxy Tab A (2019) WIFI – SM-T510</option>
       <option value="SM-A526B">Galaxy A52 5G - SM-A526B</option>
       <option value="SM-A137F">Galaxy A13 - SM-A137F</option>
       <option value="SM-A135F">Galaxy A13 - SM-A135F</option>
@@ -175,31 +196,39 @@
 
   const releases = {
     "SM-T515": {
-      "v1.1": {
+      "v1.0": {
         title: "Inital release for SM-T515",
         details: "Released: Aug 27 2025 • SELinux: Permissive • Size: 12.4MB",
         link: "https://github.com/micr0softstore/android_linux_kernel_samsung_SM-T515/releases/download/Stable/touchGrassKernel_v1.1-gta3xlinu-permissive.zip"
       }
     },
 
+    "SM-T510": {
+      "v1.0": {
+        title: "Inital release for SM-T510",
+        details: "Released: Sep 14 2025 • SELinux: Permissive • Size: 12.4MB",
+        link: "https://github.com/micr0softstore/samsung_android_kernel_T510/releases/download/Perm/tgk_v1.0-gta3xlwifi-20250913.zip"
+      }
+    },
+
     "SM-A526B": {
       "v1.0": {
         title: "SM-A526B inital release",
-        details: "Released: Sep 13 2025 • SELinux: Permissive • Size: 21MB",
+        details: "Released: Sep 13 2025 • SELinux: Multi • Size: 21MB",
         link: "https://github.com/micr0softstore/samsung_andrid_kernel_a52xq/releases/download/Release/tgk_v1.0-a52xq_20250913.zip"
       }
     },
     "SM-A137F": {
       "v1.0": {
         title: "SM-A137F use manual hooks instead of kprobes",
-        details: "Released: July 16 2025 • SELinux: Permissive • Size: 15.4MB",
+        details: "Released: July 16 2025 • SELinux: Multi• Size: 15.4MB",
         link: "https://drive.google.com/file/d/103S-ehSFzkIRi6Y65SPtOqz14NhJLNpL/view"
       }
     },
     "SM-A135F": {
       "v1.0": {
         title: "SM-A135F inital release",
-        details: "Released: Aug 9 2025 • SELinux: Permissive • Size: 18MB",
+        details: "Released: Aug 9 2025 • SELinux: Multi • Size: 18MB",
         link: "https://drive.google.com/file/d/17iQH9b7rBQ4Z4Zr1wkV-v8Iu_EvI7cmD/view?usp=sharing"
       }
     }

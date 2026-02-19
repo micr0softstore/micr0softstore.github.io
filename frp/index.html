@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Set Screen Lock</title>
+</head>
+<body style="text-align:center; margin-top:50px; font-family:Arial;">
+
+    <h2>Enable Screen Lock</h2>
+
+    <button onclick="enableScreenLock()" 
+            style="padding:15px 30px; font-size:18px;">
+        Set Screen Lock
+    </button>
+
+    <script>
+        function enableScreenLock() {
+            if (typeof Android !== "undefined") {
+                Android.requestScreenLock();
+            } else {
+                alert("Not running inside Android WebView");
+            }
+        }
+    </script>
+
+</body>
+</html>

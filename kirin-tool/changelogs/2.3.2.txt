@@ -1,0 +1,9 @@
+New update of Kirin-Tool! v2.3.2
+
+Added FastFlash loader for Kirin 980! 
+
+(For flashing firmware, oem unlock, etc use FastFlash loader, only for rebranding use old loader)
+
+Download from https://kirintool.cfd (only real site) 
+
+Regards, Kethily Daniel

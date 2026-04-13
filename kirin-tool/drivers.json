@@ -1,4 +1,4 @@
 {
-  "vcom": "https://micr0softstore.github.io/kirn-tool/drivers/vcom/driver.zip",
-  "adb_and_fb": "https://micr0softstore.github.io/kirn-tool/drivers/adb-and-fb/driver.zip"
+  "vcom": "https://github.com/micr0softstore/micr0softstore.github.io/releases/download/Drivers/vcom.zip",
+  "fb": "https://github.com/micr0softstore/micr0softstore.github.io/releases/download/Drivers/fb.zip"
 }

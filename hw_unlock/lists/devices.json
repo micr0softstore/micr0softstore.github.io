@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Huawei P30 Lite (MAR-XXX)",
+    "unlockable": "Yes",
+    "tested": "Yes"
+  },
+  {
+    "name": "Huawei P20 Lite (ANE-XXX)",
+    "unlockable": "Yes",
+    "tested": "Yes"
+  },
+  {
+    "name": "Honor 8S",
+    "unlockable": "Yes",
+    "tested": "Yes"
+  }
+]

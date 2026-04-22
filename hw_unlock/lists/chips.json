@@ -25,6 +25,11 @@
     "tested": "Yes"
   },
   {
+    "name": "Kirin 810",
+    "unlockable": "No",
+    "tested": "Yes"
+  },
+  {
     "name": "MT6761",
     "unlockable": "Yes",
     "tested": "Yes"

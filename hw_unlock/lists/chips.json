@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Kirin 710",
+    "unlockable": "Yes",
+    "tested": "Yes"
+  },
+  {
+    "name": "Kirin 980",
+    "unlockable": "Partial",
+    "tested": "Yes"
+  },
+  {
+    "name": "Kirin 65x",
+    "unlockable": "Yes",
+    "tested": "Yes"
+  },
+    {
+    "name": "Kirin 990",
+    "unlockable": "Partial",
+    "tested": "Yes"
+  },
+  {
+    "name": "Kirin 970",
+    "unlockable": "Yes",
+    "tested": "Yes"
+  },
+  {
+    "name": "MT6761",
+    "unlockable": "Yes",
+    "tested": "Yes"
+  }
+]

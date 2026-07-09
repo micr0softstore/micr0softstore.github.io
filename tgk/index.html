@@ -33,9 +33,154 @@
     body.modal-open {
       overflow: hidden;
     }
+
+    /* Liquid glass */
+    .glass {
+      position: relative;
+      background: linear-gradient(155deg, rgba(255,255,255,0.10), rgba(255,255,255,0.03) 60%);
+      backdrop-filter: blur(22px) saturate(160%);
+      -webkit-backdrop-filter: blur(22px) saturate(160%);
+      border: 1px solid rgba(255,255,255,0.14);
+      box-shadow:
+        0 10px 40px -8px rgba(0,0,0,0.55),
+        inset 0 1px 0 rgba(255,255,255,0.22),
+        inset 0 -1px 12px rgba(255,255,255,0.03);
+      overflow: hidden;
+      transition: transform 0.35s cubic-bezier(.2,.8,.2,1), box-shadow 0.35s ease, border-color 0.35s ease, background 0.35s ease;
+    }
+    .glass::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(120% 80% at 15% -10%, rgba(255,255,255,0.16), transparent 55%);
+      pointer-events: none;
+    }
+    .glass:hover {
+      transform: translateY(-3px);
+      border-color: rgba(255,255,255,0.24);
+      box-shadow:
+        0 16px 50px -8px rgba(0,0,0,0.6),
+        inset 0 1px 0 rgba(255,255,255,0.3),
+        inset 0 -1px 12px rgba(255,255,255,0.05);
+    }
+
+    .glass-modal {
+      position: relative;
+      background: linear-gradient(160deg, rgba(255,255,255,0.12), rgba(255,255,255,0.04) 65%);
+      backdrop-filter: blur(28px) saturate(180%);
+      -webkit-backdrop-filter: blur(28px) saturate(180%);
+      border: 1px solid rgba(255,255,255,0.18);
+      box-shadow:
+        0 24px 70px -12px rgba(0,0,0,0.7),
+        inset 0 1px 0 rgba(255,255,255,0.25),
+        inset 0 -1px 16px rgba(255,255,255,0.04);
+      overflow: hidden;
+    }
+    .glass-modal::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(140% 70% at 20% -10%, rgba(255,255,255,0.18), transparent 55%);
+      pointer-events: none;
+    }
+
+    .glass-select {
+      background: rgba(255,255,255,0.06);
+      backdrop-filter: blur(10px) saturate(150%);
+      -webkit-backdrop-filter: blur(10px) saturate(150%);
+      border: 1px solid rgba(255,255,255,0.16);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+      transition: border-color 0.25s ease, background 0.25s ease;
+    }
+    .glass-select:focus {
+      outline: none;
+      border-color: rgba(255,255,255,0.4);
+      background: rgba(255,255,255,0.09);
+    }
+    .glass-select option {
+      background-color: #14141c;
+      color: #f3f4f6;
+    }
+
+    .glass-button {
+      position: relative;
+      background: linear-gradient(155deg, rgba(255,255,255,0.18), rgba(255,255,255,0.06));
+      backdrop-filter: blur(16px) saturate(160%);
+      -webkit-backdrop-filter: blur(16px) saturate(160%);
+      border: 1px solid rgba(255,255,255,0.28);
+      box-shadow:
+        0 8px 24px -6px rgba(0,0,0,0.5),
+        inset 0 1px 0 rgba(255,255,255,0.35);
+      overflow: hidden;
+      transition: transform 0.3s cubic-bezier(.2,.8,.2,1), box-shadow 0.3s ease, background 0.3s ease;
+    }
+    .glass-button::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(120% 100% at 30% 0%, rgba(255,255,255,0.25), transparent 60%);
+      pointer-events: none;
+    }
+    .glass-button:hover {
+      transform: translateY(-2px) scale(1.02);
+      background: linear-gradient(155deg, rgba(255,255,255,0.24), rgba(255,255,255,0.08));
+      box-shadow:
+        0 12px 32px -6px rgba(0,0,0,0.55),
+        inset 0 1px 0 rgba(255,255,255,0.45);
+    }
+    .glass-button:active {
+      transform: translateY(0) scale(0.98);
+    }
+
+    .glass-button-accent {
+      position: relative;
+      background: linear-gradient(155deg, rgba(129,140,248,0.55), rgba(99,102,241,0.35));
+      backdrop-filter: blur(16px) saturate(160%);
+      -webkit-backdrop-filter: blur(16px) saturate(160%);
+      border: 1px solid rgba(199,210,254,0.4);
+      box-shadow:
+        0 10px 28px -6px rgba(79,70,229,0.55),
+        inset 0 1px 0 rgba(255,255,255,0.4);
+      overflow: hidden;
+      display: inline-block;
+      transition: transform 0.3s cubic-bezier(.2,.8,.2,1), box-shadow 0.3s ease, background 0.3s ease;
+    }
+    .glass-button-accent::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(120% 100% at 30% 0%, rgba(255,255,255,0.3), transparent 60%);
+      pointer-events: none;
+    }
+    .glass-button-accent:hover {
+      transform: translateY(-2px) scale(1.02);
+      background: linear-gradient(155deg, rgba(129,140,248,0.68), rgba(99,102,241,0.45));
+      box-shadow:
+        0 14px 34px -6px rgba(79,70,229,0.65),
+        inset 0 1px 0 rgba(255,255,255,0.5);
+    }
+
+    .glass-close {
+      background: rgba(255,255,255,0.08);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.16);
+      transition: background 0.25s ease, transform 0.25s ease;
+    }
+    .glass-close:hover {
+      background: rgba(255,255,255,0.16);
+      transform: scale(1.08);
+    }
   </style>
 </head>
-<body class="bg-gray-950 text-gray-100 font-sans">
+<body class="bg-gray-950 text-gray-100 font-sans relative">
+
+  <!-- Ambient background glow that follows down the page so glass panels have color to refract -->
+  <div class="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
+    <div class="absolute -top-40 -left-40 w-[36rem] h-[36rem] rounded-full bg-blue-600/25 blur-[120px]"></div>
+    <div class="absolute top-1/3 -right-32 w-[30rem] h-[30rem] rounded-full bg-purple-600/25 blur-[120px]"></div>
+    <div class="absolute bottom-0 left-1/4 w-[32rem] h-[32rem] rounded-full bg-indigo-500/20 blur-[120px]"></div>
+  </div>
 
   <!-- Hero -->
 <section class="relative min-h-screen flex flex-col justify-center items-center text-center overflow-hidden">
@@ -48,7 +193,7 @@
       <img src="https://micr0softstore.github.io/tgk/logo.png" alt="Galaxy A13 Exynos" class="mx-auto object-cover rounded-lg">
       <h1 class="text-5xl font-bold mb-4">touchGrassKernel</h1>
       <p class="text-xl mb-8">For a lot of devices</p>
-      <button onclick="openModal()" class="px-8 py-4 bg-gray-900 text-gray-100 font-semibold rounded-2xl shadow-lg hover:bg-gray-800 transition">
+      <button onclick="openModal()" class="glass-button px-8 py-4 text-gray-100 font-semibold rounded-2xl">
         ⬇ Download Now
       </button>
       <p class="mt-6">
@@ -61,7 +206,7 @@
   <section class="max-w-5xl mx-auto px-6 py-16 text-center">
     <h2 class="text-3xl font-bold mb-8">📱 Supported Devices</h2>
     <div class="grid md:grid-cols-2 gap-8">
-      <div class="p-6 bg-gray-900 rounded-2xl shadow-lg flex items-center space-x-4">
+      <div class="glass p-6 rounded-3xl flex items-center space-x-4">
         <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-a-101-2019.jpg" alt="Galaxy Tab A SM-T515" class="w-20 h-24 object-cover rounded-lg">
         <h3 class="text-lg font-semibold">Galaxy Tab A (2019) LTE – SM-T515</h3>
          <p class="mt-2">
@@ -70,7 +215,7 @@
       </a>
     </p>
       </div>
-      <div class="p-6 bg-gray-900 rounded-2xl shadow-lg flex items-center space-x-4">
+      <div class="glass p-6 rounded-3xl flex items-center space-x-4">
         <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-a-101-2019.jpg" alt="Galaxy Tab A SM-T510" class="w-20 h-24 object-cover rounded-lg">
         <h3 class="text-lg font-semibold">Galaxy Tab A (2019) WIFI – SM-T510</h3>
          <p class="mt-2">
@@ -79,7 +224,7 @@
       </a>
     </p>
       </div>
-      <div class="p-6 bg-gray-900 rounded-2xl shadow-lg flex items-center space-x-4">
+      <div class="glass p-6 rounded-3xl flex items-center space-x-4">
         <img src="https://xdaforums.com/data/xda/device/icon/13/1369.jpg?1615989979" alt="Galaxy A52 5G" class="w-20 h-24 object-cover rounded-lg">
         <h3 class="text-lg font-semibold">Galaxy A52 5G - SM-A526B</h3>
          <p class="mt-2">
@@ -88,7 +233,7 @@
       </a>
     </p>
       </div>
-      <div class="p-6 bg-gray-900 rounded-2xl shadow-lg flex items-center space-x-4">
+      <div class="glass p-6 rounded-3xl flex items-center space-x-4">
         <img src="https://cdn.kalvo.com/uploads/img/gallery/samsung-galaxy-a13-9.jpg" alt="Galaxy A13 Mtk" class="w-20 h-24 object-cover rounded-lg">
         <h3 class="text-lg font-semibold">Galaxy A13 - SM-A137F</h3>
          <p class="mt-2">
@@ -97,7 +242,7 @@
       </a>
     </p>
       </div>
-      <div class="p-6 bg-gray-900 rounded-2xl shadow-lg flex items-center space-x-4">
+      <div class="glass p-6 rounded-3xl flex items-center space-x-4">
         <img src="https://product.hstatic.net/200000823693/product/galaxya13_2b615446e46c42c99fbc9d6436ea7353.jpg" alt="Galaxy A13 Exynos" class="w-20 h-24 object-cover rounded-lg">
         <h3 class="text-lg font-semibold">Galaxy A13 - SM-A135F</h3>
          <p class="mt-2">
@@ -111,15 +256,15 @@
 
   <!-- Features -->
   <section class="max-w-5xl mx-auto px-6 py-16 grid md:grid-cols-3 gap-8 text-center">
-    <div class="p-6 bg-gray-900 rounded-2xl shadow-lg hover:shadow-xl transition">
+    <div class="glass p-6 rounded-3xl">
       <h3 class="text-xl font-semibold mb-2">🔀 Switchable Enforcement</h3>
       <p class="text-gray-400">Switch between Permissive and Enforcing SELinux</p>
     </div>
-    <div class="p-6 bg-gray-900 rounded-2xl shadow-lg hover:shadow-xl transition">
+    <div class="glass p-6 rounded-3xl">
       <h3 class="text-xl font-semibold mb-2">⚙ Bpf</h3>
       <p class="text-gray-400">Added bpf commits so can boot new versions of android</p>
     </div>
-    <div class="p-6 bg-gray-900 rounded-2xl shadow-lg hover:shadow-xl transition">
+    <div class="glass p-6 rounded-3xl">
       <h3 class="text-xl font-semibold mb-2">♟️ KernelSU-Next</h3>
       <p class="text-gray-400">Implemented latest KernelSU-Next with Manual hooks</p>
     </div>
@@ -129,7 +274,7 @@
   <section class="max-w-4xl mx-auto px-6 py-16">
     <h2 class="text-3xl font-bold text-center mb-8">📜 Contributors</h2>
     <div class="space-y-4">
-      <div class="p-6 bg-gray-900 rounded-xl shadow-lg items-center flex">
+      <div class="glass p-6 rounded-3xl items-center flex">
         <img src="https://avatars.githubusercontent.com/u/196047120?v=4" alt="Galaxy Tab A SM-T515" class="w-24 h-24 object-cover rounded-lg">
         <h3 class="text-lg font-semibold">&nbsp Microsoft Store &nbsp</h3>
       <a href="https://github.com/micr0softstore/" target="_blank" class="text-indigo-400 hover:underline">
@@ -139,7 +284,7 @@
     </br>
     </div>
     <div class="space-y-4">
-      <div class="p-6 bg-gray-900 rounded-xl shadow-lg items-center flex">
+      <div class="glass p-6 rounded-3xl items-center flex">
         <img src="https://avatars.githubusercontent.com/u/183935403?v=4" alt="Galaxy Tab A SM-T515" class="w-24 h-24 object-cover rounded-lg">
         <h3 class="text-lg font-semibold">&nbsp Pritam &nbsp</h3>
       <a href="https://github.com/nostalgiceagle" target="_blank" class="text-indigo-400 hover:underline">
@@ -157,13 +302,13 @@
 
 <!-- Download Modal -->
 <div id="downloadModal" class="fixed inset-0 hidden bg-black/70 backdrop-blur-sm flex items-center justify-center z-50">
-  <div class="bg-gray-900 p-8 rounded-2xl shadow-xl w-full max-w-lg relative">
-    <button onclick="closeModal()" class="absolute top-3 right-3 text-gray-400 hover:text-white">✖</button>
+  <div class="glass-modal p-8 rounded-3xl w-full max-w-lg relative">
+    <button onclick="closeModal()" class="glass-close absolute top-3 right-3 w-8 h-8 flex items-center justify-center rounded-full text-gray-300 hover:text-white">✖</button>
     <h2 class="text-2xl font-bold mb-6">Download touchGrassKernel</h2>
 
     <!-- Dropdowns -->
     <label class="block text-left mb-2 font-medium">Select Device:</label>
-    <select id="deviceSelect" class="w-full p-3 rounded-lg bg-gray-800 text-gray-100 mb-4">
+    <select id="deviceSelect" class="glass-select w-full p-3 rounded-xl text-gray-100 mb-4">
       <option value="">Choose Device</option>
       <option value="SM-T515">Galaxy Tab A (2019) LTE – SM-T515</option>
       <option value="SM-T510">Galaxy Tab A (2019) WIFI – SM-T510</option>
@@ -173,15 +318,15 @@
     </select>
 
     <label class="block text-left mb-2 font-medium">Select Version:</label>
-    <select id="versionSelect" class="w-full p-3 rounded-lg bg-gray-800 text-gray-100 mb-6" disabled>
+    <select id="versionSelect" class="glass-select w-full p-3 rounded-xl text-gray-100 mb-6" disabled>
       <option value="">Choose Version</option>
     </select>
 
     <!-- Release Card -->
-    <div id="releaseCard" class="hidden p-6 bg-gray-800 rounded-xl shadow-lg mt-4">
+    <div id="releaseCard" class="glass hidden p-6 rounded-2xl mt-4">
       <h3 id="releaseTitle" class="text-xl font-semibold mb-2">Release</h3>
       <p id="releaseDetails" class="text-gray-400 text-sm mb-4">Details about release…</p>
-      <a id="releaseLink" href="#" class="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow hover:bg-indigo-500 transition">
+      <a id="releaseLink" href="#" class="glass-button-accent px-6 py-3 text-white font-semibold rounded-xl">
         Download
       </a>
     </div>
@@ -223,14 +368,9 @@
         link: "https://github.com/micr0softstore/samsung_android_kernel_a52xq/releases/download/Release_v1-5/tgk_v1.5_a52xq_noksu.zip"
       },
        "v1.5.1": {
-        title: "SM-A526B for Android 16 (minimal 5.4) with KernelSU",
-        details: "Released: May 2 2026 • SELinux: Multi • Size: 21MB • KernelSU: modules doesn't work! do not use this build!",
-        link: "https://github.com/micr0softstore/samsung_android_kernel_a52xq/releases/download/Release_v1-5/tgl_v1.5.1_a52xq_ksun.zip"
-      },
-      "v1.5.2": {
-        title: "SM-A526B for Android 16 (minimal 5.4) with KernelSU",
-        details: "Released: Jul 7 2026 • SELinux: Multi • Size: 21MB • KernelSU Next: v3.2.0 • Notes: hotfix for v1.5.1, fixed modules",
-        link: "https://github.com/micr0softstore/samsung_android_kernel_a52xq/releases/download/Release_v1-5/tgk_v1.5.2_a52xq_ksun.zip"
+        title: "SM-A526B for Android 16 (minimal 5.4) with ReSukisU",
+        details: "Released: Jul 9 2026 • SELinux: Multi • Size: 21MB • ReSukiSU: v4.1.0",
+        link: "https://github.com/micr0softstore/samsung_android_kernel_a52xq/releases/download/Release_v1-5/tgk_v1.5.1_a52xq_sukisu.zip"
       }
     },
     "SM-A137F": {

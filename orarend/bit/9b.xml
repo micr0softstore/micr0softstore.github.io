@@ -8,126 +8,126 @@
         <ora1>
             <ido>08:15-09:00</ido>
             <nev0>Irodalom</nev0>
-            <terem0>NA</terem0>
+            <terem0>C13</terem0>
             <tanar0>Bakó-Ribényi Orsolya</tanar0>
         </ora1>
         <ora2>
             <ido>09:10-09:55</ido>
-            <nev0>TEST</nev0>
+            <nev0>Tesi</nev0>
             <terem0>TTER</terem0>
             <tanar0>AG / KRD / KI</tanar0>
         </ora2>
         <ora3>
             <ido>10:10-10:55</ido>
             <nev0>MUNKISM</nev0>
-            <terem0>NA</terem0>
+            <terem0>C13</terem0>
             <tanar0>GLM</tanar0>
         </ora3>
         <ora4>
             <ido>11:05-11:50</ido>
             <nev0>KTERMTUD</nev0>
-            <terem0>NA</terem0>
+            <terem0>C13</terem0>
             <tanar0>MAÁ</tanar0>
         </ora4>
         <ora5>
             <ido>12:00-12:45</ido>
-            <nev0>MAT</nev0>
-            <terem0>NA</terem0>
+            <nev0>Matek</nev0>
+            <terem0>C13 / C11</terem0>
             <csoport0>9A1/9B1</csoport0>
             <tanar0>KAG</tanar0>
-            <nev1>MAT</nev1>
-            <terem1>NA</terem1>
+            <nev1>Matek</nev1>
+            <terem1>C13 / C11</terem1>
             <csoport1>9A2/9B2</csoport1>
             <tanar1>DI</tanar1>
-            <nev2>MAT</nev2>
+            <nev2>Matek</nev2>
             <terem2>B21</terem2>
             <csoport2>9A3/9B3</csoport2>
             <tanar2>KAB</tanar2>
         </ora5>
         <ora6>
             <ido>13:10-13:55</ido>
-            <nev0>ANG</nev0>
-            <terem0>NA</terem0>
-            <csoport0>ANG_K</csoport0>
+            <nev0>Angol</nev0>
+            <terem0>C13</terem0>
+            <csoport0>Kezdő</csoport0>
             <tanar0>TB</tanar0>
-            <nev1>ANG</nev1>
+            <nev1>Angol</nev1>
             <terem1>C04</terem1>
-            <csoport1>ANG_KH</csoport1>
+            <csoport1>Középhaladó</csoport1>
             <tanar1>HA</tanar1>
-            <nev2>ANG</nev2>
+            <nev2>Angol</nev2>
             <terem2>C03</terem2>
-            <csoport2>ANG_H</csoport2>
+            <csoport2>Haladó</csoport2>
             <tanar2>FI</tanar2>
         </ora6>
         <ora7>
             <ido>14:05-14:45</ido>
             <nev0>PROGAL</nev0>
-            <terem0>NA</terem0>
-            <csoport0>IN</csoport0>
+            <terem0>C13</terem0>
+            <csoport0>Informatika</csoport0>
             <tanar0>SZKR</tanar0>
         </ora7>
     </hetfo>
     <kedd>
         <ora1>
             <ido>08:15-09:00</ido>
-            <nev0>MNY</nev0>
-            <terem0>NA</terem0>
+            <nev0>Nyelvtan</nev0>
+            <terem0>C13</terem0>
             <tanar0>RO</tanar0>
         </ora1>
         <ora2>
             <ido>09:10-09:55</ido>
-            <nev0>TEST</nev0>
+            <nev0>Tesi</nev0>
             <terem0>TTER</terem0>
             <tanar0>AG / KRD / KI</tanar0>
         </ora2>
         <ora3>
             <ido>10:10-10:55</ido>
-            <nev0>SPA</nev0>
+            <nev0>Spanyol</nev0>
             <terem0>B22</terem0>
-            <csoport0>SPA</csoport0>
+            <csoport0>Spanyol</csoport0>
             <tanar0>MN</tanar0>
-            <nev1>NÉM</nev1>
+            <nev1>Német</nev1>
             <terem1>NA</terem1>
-            <csoport1>NÉM_K</csoport1>
+            <csoport1>Kezdő</csoport1>
             <tanar1>HAD</tanar1>
-            <nev2>NÉM</nev2>
+            <nev2>Német</nev2>
             <terem2>NA</terem2>
-            <csoport2>NÉM_H</csoport2>
+            <csoport2>Haladó</csoport2>
             <tanar2>Cseresznyák Mónika</tanar2>
         </ora3>
         <ora4>
             <ido>11:05-11:50</ido>
             <nev0>Történelem</nev0>
-            <terem0>NA</terem0>
+            <terem0>C13</terem0>
             <tanar0>Cseresznyák Mónika</tanar0>
         </ora4>
         <ora5>
             <ido>12:00-12:45</ido>
-            <nev0>MAT</nev0>
-            <terem0>NA</terem0>
+            <nev0>Matek</nev0>
+            <terem0>C13 / C11</terem0>
             <csoport0>9A1/9B1</csoport0>
             <tanar0>KAG</tanar0>
-            <nev1>DIGKULT</nev1>
+            <nev1>Digitális Kultúra</nev1>
             <terem1>A24A</terem1>
             <csoport1>9A2/9B2</csoport1>
             <tanar1>SZMM</tanar1>
-            <nev2>DIGKULT</nev2>
-            <terem2>NA</terem2>
+            <nev2>Digitális Kultúra</nev2>
+            <terem2>C13 / C11</terem2>
             <csoport2>9A3/9B3</csoport2>
             <tanar2>DI</tanar2>
         </ora5>
         <ora6>
             <ido>13:10-13:55</ido>
-            <nev0>DIGKULT</nev0>
+            <nev0>Digitális Kultúra</nev0>
             <terem0>A24A</terem0>
             <csoport0>9A1/9B1</csoport0>
             <tanar0>SZMM</tanar0>
-            <nev1>MAT</nev1>
-            <terem1>NA</terem1>
+            <nev1>Matek</nev1>
+            <terem1>C13 / C11</terem1>
             <csoport1>9A2/9B2</csoport1>
             <tanar1>DI</tanar1>
-            <nev2>MAT</nev2>
-            <terem2>NA</terem2>
+            <nev2>Matek</nev2>
+            <terem2>C13 / C11</terem2>
             <csoport2>9A3/9B3</csoport2>
             <tanar2>KAB</tanar2>
         </ora6>
@@ -136,71 +136,71 @@
         <ora1>
             <ido>08:15-09:00</ido>
             <nev0>Történelem</nev0>
-            <terem0>NA</terem0>
+            <terem0>C13</terem0>
             <tanar0>Cseresznyák Mónika</tanar0>
         </ora1>
         <ora2>
             <ido>09:10-09:55</ido>
             <nev0>Irodalom</nev0>
-            <terem0>NA</terem0>
+            <terem0>C13</terem0>
             <tanar0>Bakó-Ribényi Orsolya</tanar0>
         </ora2>
         <ora3>
             <ido>10:10-10:55</ido>
-            <nev0>MAT</nev0>
-            <terem0>C11</terem0>
+            <nev0>Matek</nev0>
+            <terem0>C13 / C11</terem0>
             <csoport0>9A1/9B1</csoport0>
             <tanar0>Kasza Gergő</tanar0>
-            <nev1>MAT</nev1>
-            <terem1>C13</terem1>
+            <nev1>Matek</nev1>
+            <terem1>C13 / C11</terem1>
             <csoport1>9A2/9B2</csoport1>
             <tanar1>DI</tanar1>
-            <nev2>MAT</nev2>
+            <nev2>Matek</nev2>
             <terem2>B21</terem2>
             <csoport2>9A3/9B3</csoport2>
             <tanar2>KAB</tanar2>
         </ora3>
         <ora4>
             <ido>11:05-11:50</ido>
-            <nev0>ANG</nev0>
-            <terem0>NA</terem0>
-            <csoport0>ANG_K</csoport0>
+            <nev0>Angol</nev0>
+            <terem0>C13 / C11</terem0>
+            <csoport0>Kezdő</csoport0>
             <tanar0>TB</tanar0>
-            <nev1>ANG</nev1>
-            <terem1>NA</terem1>
-            <csoport1>ANG_KH</csoport1>
+            <nev1>Angol</nev1>
+            <terem1>C13 / C11</terem1>
+            <csoport1>Középhaladó</csoport1>
             <tanar1>HA</tanar1>
-            <nev2>ANG</nev2>
+            <nev2>Angol</nev2>
             <terem2>D14</terem2>
-            <csoport2>ANG_H</csoport2>
+            <csoport2>Haladó</csoport2>
             <tanar2>FI</tanar2>
         </ora4>
         <ora5>
             <ido>12:00-12:45</ido>
             <nev0>Osztályfőnöki</nev0>
-            <terem0>NA</terem0>
+            <terem0>C13</terem0>
             <tanar0>GE / RO</tanar0>
         </ora5>
         <ora6>
             <ido>13:10-13:55</ido>
-            <nev0>GAZDJOGISM</nev0>
-            <terem0>NA</terem0>
-            <csoport0>LO/PÉ</csoport0>
+            <nev0>Gazdasági és jogi ismeretek</nev0>
+            <terem0>C13</terem0>
+            <csoport0>Logisztika / Pénzügy</csoport0>
             <tanar0>GE</tanar0>
-            <nev1>INFTÁV I.</nev1>
+            <nev1>Informatikai távközlés</nev1>
             <terem1>A24B</terem1>
-            <csoport1>IN</csoport1>
+            <csoport1>Informatika</csoport1>
             <tanar1>DI</tanar1>
         </ora6>
         <ora7>
             <ido>14:05-14:45</ido>
             <nev0>KOM</nev0>
-            <terem0>NA</terem0>
-            <csoport0>PÉ</csoport0>
+            <terem0>C13</terem0>
+            <csoport0>Pénzügy</csoport0>
             <tanar0>GE</tanar0>
-            <nev1>IKT I.</nev1>
+            <nev1>IKT</nev1>
             <terem1>A24B</terem1>
-            <csoport1>IN</csoport1>
+            <csoport1>Informatika</csoport1>
             <tanar1>SZKR</tanar1>
         </ora7>
     </szerda>
@@ -208,144 +208,144 @@
         <ora1>
             <ido>08:15-09:00</ido>
             <nev0>Irodalom</nev0>
-            <terem0>NA</terem0>
+            <terem0>C13</terem0>
             <tanar0>Bakó-Ribényi Orsolya</tanar0>
         </ora1>
         <ora2>
             <ido>09:10-09:55</ido>
-            <nev0>GAZDJOGISM</nev0>
+            <nev0>Gazdasági jogi ismeretek</nev0>
             <terem0>C14</terem0>
-            <csoport0>LO/PÉ</csoport0>
+            <csoport0>Logisztika / Pénzügy</csoport0>
             <tanar0>GE</tanar0>
-            <nev1>INFTÁV I.</nev1>
+            <nev1>Informatikai távközlés</nev1>
             <terem1>A24B</terem1>
-            <csoport1>IN</csoport1>
+            <csoport1>Informatika</csoport1>
             <tanar1>DI</tanar1>
         </ora2>
         <ora3>
             <ido>10:10-10:55</ido>
-            <nev0>ANG</nev0>
-            <terem0>NA</terem0>
-            <csoport0>ANG_K</csoport0>
+            <nev0>Angol</nev0>
+            <terem0>C13</terem0>
+            <csoport0>Kezdő</csoport0>
             <tanar0>TB</tanar0>
-            <nev1>ANG</nev1>
+            <nev1>Angol</nev1>
             <terem1>D03</terem1>
-            <csoport1>ANG_KH</csoport1>
+            <csoport1>Középhaladó</csoport1>
             <tanar1>HA</tanar1>
-            <nev2>ANG</nev2>
+            <nev2>Angol</nev2>
             <terem2>C15</terem2>
-            <csoport2>ANG_H</csoport2>
+            <csoport2>Haladó</csoport2>
             <tanar2>FI</tanar2>
         </ora3>
         <ora4>
             <ido>11:05-11:50</ido>
-            <nev0>SPA</nev0>
+            <nev0>Spanyol</nev0>
             <terem0>B22</terem0>
-            <csoport0>SPA</csoport0>
+            <csoport0>Spanyol</csoport0>
             <tanar0>MN</tanar0>
-            <nev1>NÉM</nev1>
-            <terem1>NA</terem1>
-            <csoport1>NÉM_K</csoport1>
+            <nev1>Német</nev1>
+            <terem1>C13 / C11</terem1>
+            <csoport1>Kezdő</csoport1>
             <tanar1>HAD</tanar1>
-            <nev2>NÉM</nev2>
-            <terem2>NA</terem2>
-            <csoport2>NÉM_H</csoport2>
+            <nev2>Német</nev2>
+            <terem2>C13 / C11</terem2>
+            <csoport2>Haladó</csoport2>
             <tanar2>Cseresznyák Mónika</tanar2>
         </ora4>
         <ora5>
             <ido>12:00-12:45</ido>
             <nev0>GÉPI</nev0>
             <terem0>NA</terem0>
-            <csoport0>LO/PÉ</csoport0>
+            <csoport0>Logisztika / Pénzügy</csoport0>
             <tanar0>PE</tanar0>
             <nev1>PROGAL</nev1>
             <terem1>A24A</terem1>
-            <csoport1>IN</csoport1>
+            <csoport1>Informatika</csoport1>
             <tanar1>SZKR</tanar1>
         </ora5>
         <ora6>
             <ido>13:10-13:55</ido>
             <nev0>Történelem</nev0>
-            <terem0>NA</terem0>
+            <terem0>C13</terem0>
             <tanar0>Cseresznyák Mónika</tanar0>
         </ora6>
         <ora7>
             <ido>14:05-14:45</ido>
             <nev0>KOM</nev0>
-            <terem0>NA</terem0>
-            <csoport0>LO</csoport0>
+            <terem0>C13 / C11</terem0>
+            <csoport0>Logisztika</csoport0>
             <tanar0>GE</tanar0>
             <nev1>GÉPI</nev1>
-            <terem1>NA</terem1>
-            <csoport1>IN</csoport1>
+            <terem1>C13 / C11</terem1>
+            <csoport1>Informatika</csoport1>
             <tanar1>PE</tanar1>
         </ora7>
     </csutortok>
     <pentek>
         <ora1>
             <ido>08:15-09:00</ido>
-            <nev0>TEST</nev0>
+            <nev0>Tesi</nev0>
             <terem0>TTER</terem0>
             <tanar0>AG / KRD / KI</tanar0>
         </ora1>
         <ora2>
             <ido>09:10-09:55</ido>
-            <nev0>ANG</nev0>
-            <terem0>NA</terem0>
-            <csoport0>ANG_K</csoport0>
+            <nev0>Angol</nev0>
+            <terem0>C13</terem0>
+            <csoport0>Kezdő</csoport0>
             <tanar0>TB</tanar0>
-            <nev1>ANG</nev1>
+            <nev1>Angol</nev1>
             <terem1>C25</terem1>
-            <csoport1>ANG_KH</csoport1>
+            <csoport1>Középhaladó</csoport1>
             <tanar1>HA</tanar1>
-            <nev2>ANG</nev2>
+            <nev2>Angol</nev2>
             <terem2>C15</terem2>
-            <csoport2>ANG_H</csoport2>
+            <csoport2>Haladó</csoport2>
             <tanar2>FI</tanar2>
         </ora2>
         <ora3>
             <ido>10:10-10:55</ido>
-            <nev0>SPA</nev0>
+            <nev0>Spanyol</nev0>
             <terem0>B22</terem0>
-            <csoport0>SPA</csoport0>
+            <csoport0>Spanyol</csoport0>
             <tanar0>MN</tanar0>
-            <nev1>NÉM</nev1>
-            <terem1>NA</terem1>
-            <csoport1>NÉM_K</csoport1>
+            <nev1>Német</nev1>
+            <terem1>C13 / C11</terem1>
+            <csoport1>Kezdő</csoport1>
             <tanar1>HAD</tanar1>
-            <nev2>NÉM</nev2>
-            <terem2>NA</terem2>
-            <csoport2>NÉM_H</csoport2>
+            <nev2>Német</nev2>
+            <terem2>C13 / C11</terem2>
+            <csoport2>Haladó</csoport2>
             <tanar2>Cseresznyák Mónika</tanar2>
         </ora3>
         <ora4>
             <ido>11:05-11:50</ido>
             <nev0>KTERMTUD</nev0>
-            <terem0>NA</terem0>
+            <terem0>C13</terem0>
             <tanar0>BA</tanar0>
         </ora4>
         <ora5>
             <ido>12:00-12:45</ido>
             <nev0>KTERMTUD</nev0>
-            <terem0>NA</terem0>
+            <terem0>C13</terem0>
             <tanar0>BA</tanar0>
         </ora5>
         <ora6>
             <ido>13:10-13:55</ido>
-            <nev0>GAZDJOGISM</nev0>
+            <nev0>Gazdasági jogi ismeretek</nev0>
             <terem0>C12</terem0>
-            <csoport0>LO/PÉ</csoport0>
+            <csoport0>Logisztika / Pénzügy</csoport0>
             <tanar0>GE</tanar0>
-            <nev1>INFTÁV I.</nev1>
-            <terem1>NA</terem1>
-            <csoport1>IN</csoport1>
+            <nev1>Informatika és távközlés</nev1>
+            <terem1>C13</terem1>
+            <csoport1>Informatika</csoport1>
             <tanar1>DI</tanar1>
         </ora6>
         <ora7>
             <ido>14:05-14:45</ido>
             <nev0>GÉPI</nev0>
-            <terem0>NA</terem0>
-            <csoport0>LO/PÉ</csoport0>
+            <terem0>C13</terem0>
+            <csoport0>Logisztika / Pénzügy</csoport0>
             <tanar0>PE</tanar0>
         </ora7>
     </pentek>

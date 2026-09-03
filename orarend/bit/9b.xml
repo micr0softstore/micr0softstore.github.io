@@ -87,11 +87,11 @@
             <csoport0>Spanyol</csoport0>
             <tanar0>MN</tanar0>
             <nev1>Német</nev1>
-            <terem1>NA</terem1>
+            <terem1>C13 / C11</terem1>
             <csoport1>Kezdő</csoport1>
             <tanar1>HAD</tanar1>
             <nev2>Német</nev2>
-            <terem2>NA</terem2>
+            <terem2>C13 / C11</terem2>
             <csoport2>Haladó</csoport2>
             <tanar2>Cseresznyák Mónika</tanar2>
         </ora3>
@@ -255,7 +255,7 @@
         <ora5>
             <ido>12:00-12:45</ido>
             <nev0>GÉPI</nev0>
-            <terem0>NA</terem0>
+            <terem0>C13 / C11</terem0>
             <csoport0>Logisztika / Pénzügy</csoport0>
             <tanar0>PE</tanar0>
             <nev1>PROGAL</nev1>

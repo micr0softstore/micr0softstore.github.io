@@ -1,0 +1,58 @@
+<xml>
+<metadata>
+    <xmlver>1</xmlver>
+    <osztaly>9B</osztaly>
+</metadata>
+<orarend>
+    <pentek>
+        <ora1>
+            <ido>08:15-09:00</ido>
+            <nev0>Mesterséges Intelligencia és tanulás</nev0>
+            <terem0>Konferenciaterem</terem0>
+            <tanar0>Koren Balázs, Frész Attila</tanar0>
+        </ora1>
+        <ora2>
+            <ido>09:10-09:55</ido>
+            <nev0>Mesterséges Intelligencia és tanulás</nev0>
+            <terem0>Konferenciaterem</terem0>
+            <tanar0>Koren Balázs, Frész Attila</tanar0>
+        </ora2>
+        <ora3>
+            <ido>10:10-10:35</ido>
+            <nev0>Tanulásmódszertan</nev0>
+            <terem0>Könyvtár</terem0>
+            <tanar0>Fráter Adrienne</tanar0>
+        </ora3>
+        <ora4>
+            <ido>10:35-10:55</ido>
+            <nev0>MÖSZ</nev0>
+            <terem0>C13</terem0>
+            <tanar0>Mátraházi Noémi</tanar0>
+        </ora4>
+        <ora5>
+            <ido>11:05-11:30</ido>
+            <nev0>Iskolai közösségi szolgálat</nev0>
+            <terem0>C11</terem0>
+            <tanar0>Kiss Dániel</tanar0>
+        </ora5>
+        <ora6>
+            <ido>11:30-11:55</ido>
+            <nev0>Időgazdálkodás</nev0>
+            <terem0>C11</terem0>
+            <tanar0>Szentiványi Eszter</tanar0>
+        </ora6>
+        <ora7>
+            <ido>12:10-12:45</ido>
+            <nev0>Osztályfőnöki</nev0>
+            <terem0>C13</terem0>
+            <tanar0>Ribényi Orsolya</tanar0>
+        </ora7>
+        <ora8>
+            <ido>13:10-13:55</ido>
+            <nev0>Osztályfőnöki</nev0>
+            <terem0>C13</terem0>
+            <tanar0>Gajdos Erika</tanar0>
+        </ora8>
+    </pentek>
+</orarend>
+</xml>

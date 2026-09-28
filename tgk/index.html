@@ -363,6 +363,11 @@
         title: "Inital release for SM-T515",
         details: "Released: Aug 27 2025 • SELinux: Permissive • Size: 12.4MB",
         link: "https://github.com/micr0softstore/android_linux_kernel_samsung_SM-T515/releases/download/Stable/touchGrassKernel_v1.1-gta3xlinu-permissive.zip"
+      },
+      "v2.0.0": {
+        title: "Inital release of bpf_5.4 branch",
+        details: "Released: Sep 28 2026 • SELinux: Permissive • Size: 12.5MB<br>Notes:<br>- Compiled from bpf_5.4 branch blob: b92bd31<br>- has 5.4 backports<br>- compatible with Android 15 (16 untested, but should work)<br>- Might have some bugs/issues<br>- Compiled with ReSukiSu<br>- Always Permissive",
+        link: "https://github.com/micr0softstore/android_linux_kernel_samsung_SM-T515/releases/download/v2.0.0/touchgrasskernel_v2-0-0_gta3xllte.zip"
       }
     },
 
@@ -441,7 +446,7 @@
     if (device && version && releases[device] && releases[device][version]) {
       const release = releases[device][version];
       releaseTitle.textContent = release.title;
-      releaseDetails.textContent = release.details;
+      releaseDetails.innerHTML = release.details;
       releaseLink.href = release.link;
       releaseCard.classList.remove('hidden');
     } else {

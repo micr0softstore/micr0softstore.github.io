@@ -1,7 +1,7 @@
 {
   "tag": "DEBUG",
-  "version": "0.3.2",
-  "apk": "https://github.com/micr0softstore/bmenetrend/releases/download/v0.3.2-debug/app-debug.apk",
-  "lastCommit": "https://github.com/micr0softstore/bmenetrend/commit/6393e0887e083baa2213b5cab1ff627c10337ff6",
-  "changelog": "Group multiple stations near each other when opend or searched for,\nand prioritize shortest duration itineraries in trip planner"
+  "version": "0.3.3",
+  "apk": "https://github.com/micr0softstore/bmenetrend/releases/download/v0.3.3-debug/app-debug.apk",
+  "lastCommit": "https://github.com/micr0softstore/bmenetrend/commit/ec6424c5ed80d7870f980b74398ed5bccb686ae2",
+  "changelog": "Fix there was no option for selecting direction for EMMA vehicles in search menu\nadd departure times next to the stations when sekecting a vehicle on the map"
 }

@@ -1,7 +1,7 @@
 {
   "tag": "DEBUG",
-  "version": "0.3.1",
-  "apk": "https://github.com/micr0softstore/bmenetrend/releases/download/v0.3.1-debug/app-debug.apk",
-  "lastCommit": "a53ee19e067c527bb3e59cbb1fd52fed32df1475",
-  "changelog": "Whatever bence fixed or improved.\nAnd added ota updater"
+  "version": "0.3.2",
+  "apk": "https://github.com/micr0softstore/bmenetrend/releases/download/v0.3.2-debug/app-debug.apk",
+  "lastCommit": "https://github.com/micr0softstore/bmenetrend/commit/6393e0887e083baa2213b5cab1ff627c10337ff6",
+  "changelog": "Group multiple stations near each other when opend or searched for,\nand prioritize shortest duration itineraries in trip planner"
 }

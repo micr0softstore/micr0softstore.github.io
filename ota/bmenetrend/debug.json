@@ -1,7 +1,7 @@
 {
   "tag": "DEBUG",
   "version": "0.3.4",
-  "apk": "https://github.com/micr0softstore/bmenetrend/releases/download/v0.3.4/app-debug.apk",
-  "lastCommit": "https://github.com/micr0softstore/bmenetrend/commit/b1e086bdaac61a67cf733ccd1414207e1e5315ef",
+  "apk": "https://github.com/eefochu/bmenetrend/releases/download/v0.3.4/app-debug.apk",
+  "lastCommit": "https://github.com/eefochu/bmenetrend/commit/b1e086bdaac61a67cf733ccd1414207e1e5315ef",
   "changelog": "Add Launcher icons, and bump version by @imbencetsx in #14\nFull Changelog: https://github.com/micr0softstore/bmenetrend/compare/v0.3.3-debug...v0.3.4"
 }
